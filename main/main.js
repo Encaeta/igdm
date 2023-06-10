@@ -37,7 +37,7 @@ function createWindow () {
       }
     });
   }
-  mainWindow.setTitle('IGdm - Instagram Desktop Messenger');
+  mainWindow.setTitle('Encaeta IGdm - Instagram Desktop Messenger');
 
   instagram.hasActiveSession().then((result) => {
     const view = result.isLoggedIn ? '../browser/index.html' : '../browser/login.html';
